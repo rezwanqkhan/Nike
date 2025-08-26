@@ -318,7 +318,7 @@ Storybook will be available at `http://localhost:6006`
 
 1. **Get the code**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/rezwanqkhan/Nike.git
    cd nike
    ```
 
