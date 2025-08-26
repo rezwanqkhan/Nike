@@ -26,68 +26,143 @@ A modern Nike-inspired e-commerce website I built using React, TypeScript, and T
 - **Vite** - Lightning-fast development and builds
 - **Local Storage** - Your cart and wishlist persist between sessions
 
-##   Try It Out
-
-You can see the live version [here](#) (coming soon!)
+ 
 
 ## 📸 What It Looks Like
 
 ### 🖥️ Desktop Experience
 
-#### Homepage & Hero Section
-<div align="center">
-  <img src="image.png" alt="Nike Homepage - Hero Section" width="45%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
-  <img src="image-1.png" alt="Homepage - Product Showcase" width="45%" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
-</div>
+<table align="center" style="border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <td colspan="2" style="text-align: center; padding: 15px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; font-weight: bold; border-radius: 10px 10px 0 0;">🏠 Homepage & Landing</td>
+  </tr>
+  <tr>
+    <td style="padding: 15px; text-align: center; background: #f8fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image.png" alt="Nike Homepage - Hero Section" style="width: 100%; max-width: 400px; border: 3px solid #4a5568; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); transition: transform 0.3s ease;" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f8fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-1.png" alt="Homepage - Product Showcase" style="width: 100%; max-width: 400px; border: 3px solid #4a5568; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); transition: transform 0.3s ease;" />
+    </td>
+  </tr>
+</table>
 
-#### Product Catalog & Features
-<div align="center">
-  <img src="image-2.png" alt="Product Grid & Search" width="30%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
-  <img src="image-3.png" alt="Product Details & Filters" width="30%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
-  <img src="image-4.png" alt="Product Quick View" width="30%" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
-</div>
+<table align="center" style="border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <td colspan="3" style="text-align: center; padding: 15px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; font-weight: bold; border-radius: 10px 10px 0 0;">🛍️ Product Browsing & Search</td>
+  </tr>
+  <tr>
+    <td style="padding: 15px; text-align: center; background: #f8fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-2.png" alt="Product Grid & Search" style="width: 100%; max-width: 300px; border: 3px solid #4a5568; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f8fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-3.png" alt="Product Details & Filters" style="width: 100%; max-width: 300px; border: 3px solid #4a5568; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f8fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-4.png" alt="Product Quick View" style="width: 100%; max-width: 300px; border: 3px solid #4a5568; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);" />
+    </td>
+  </tr>
+</table>
 
-#### User Experience & Navigation
-<div align="center">
-  <img src="image-5.png" alt="Site Navigation & Features" width="45%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
-  <img src="image-6.png" alt="User Interface Elements" width="45%" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
-</div>
+<table align="center" style="border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <td colspan="2" style="text-align: center; padding: 15px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; font-weight: bold; border-radius: 10px 10px 0 0;">⭐ Product Details & Reviews</td>
+  </tr>
+  <tr>
+    <td style="padding: 15px; text-align: center; background: #f8fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-5.png" alt="Site Navigation & Features" style="width: 100%; max-width: 400px; border: 3px solid #4a5568; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f8fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-6.png" alt="User Interface Elements" style="width: 100%; max-width: 400px; border: 3px solid #4a5568; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);" />
+    </td>
+  </tr>
+</table>
 
-#### Shopping & Wishlist Features
-<div align="center">
-  <img src="image-7.png" alt="Shopping Experience" width="30%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
-  <img src="image-8.png" alt="Wishlist/Favorites Page" width="30%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
-  <img src="image-9.png" alt="Shopping Cart & Checkout" width="30%" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
-</div>
+<table align="center" style="border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <td colspan="3" style="text-align: center; padding: 15px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: white; font-weight: bold; border-radius: 10px 10px 0 0;">🛒 Cart & Wishlist Management</td>
+  </tr>
+  <tr>
+    <td style="padding: 15px; text-align: center; background: #f8fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-7.png" alt="Shopping Experience" style="width: 100%; max-width: 300px; border: 3px solid #4a5568; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f8fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-8.png" alt="Wishlist/Favorites Page" style="width: 100%; max-width: 300px; border: 3px solid #4a5568; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f8fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-9.png" alt="Shopping Cart & Checkout" style="width: 100%; max-width: 300px; border: 3px solid #4a5568; border-radius: 12px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);" />
+    </td>
+  </tr>
+</table>
 
 ### 📱 Mobile Experience
 
-#### Mobile Navigation & Homepage
-<div style="display: flex; justify-content: space-between; margin: 20px 0;">
-  <img src="image-10.png" alt="Mobile homepage hero section" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
-  <img src="image-11.png" alt="Mobile navigation menu" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
-  <img src="image-12.png" alt="Mobile product catalog" style="width: 30%; border: 2px solid #e5e7eb; border-radius: 8px;">
-</div>
+<table align="center" style="border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <td colspan="3" style="text-align: center; padding: 15px; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #2d3748; font-weight: bold; border-radius: 10px 10px 0 0;">📱 Mobile Homepage & Navigation</td>
+  </tr>
+  <tr>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-10.png" alt="Mobile homepage hero section" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-11.png" alt="Mobile navigation menu" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-12.png" alt="Mobile product catalog" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+  </tr>
+</table>
 
-#### Mobile Product Experience
-<div style="display: flex; justify-content: space-between; margin: 20px 0;">
-  <img src="image-13.png" alt="Mobile product details" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
-  <img src="image-14.png" alt="Mobile product modal" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
-  <img src="image-15.png" alt="Mobile size selection" style="width: 30%; border: 2px solid #e5e7eb; border-radius: 8px;">
-</div>
+<table align="center" style="border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <td colspan="3" style="text-align: center; padding: 15px; background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); color: #2d3748; font-weight: bold; border-radius: 10px 10px 0 0;">👟 Mobile Product Details & Selection</td>
+  </tr>
+  <tr>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-13.png" alt="Mobile product details" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-14.png" alt="Mobile product modal" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-15.png" alt="Mobile size selection" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+  </tr>
+</table>
 
-#### Mobile Shopping Features
-<div style="display: flex; justify-content: space-between; margin: 20px 0;">
-  <img src="image-16.png" alt="Mobile search functionality" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
-  <img src="image-17.png" alt="Mobile wishlist page" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
-  <img src="image-18.png" alt="Mobile shopping cart" style="width: 30%; border: 2px solid #e5e7eb; border-radius: 8px;">
-</div>
+<table align="center" style="border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <td colspan="3" style="text-align: center; padding: 15px; background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); color: #2d3748; font-weight: bold; border-radius: 10px 10px 0 0;">🔍 Mobile Search & Shopping</td>
+  </tr>
+  <tr>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-16.png" alt="Mobile search functionality" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-17.png" alt="Mobile wishlist page" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-18.png" alt="Mobile shopping cart" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+  </tr>
+</table>
 
-#### Mobile User Interface
-<div style="display: flex; justify-content: space-between; margin: 20px 0;">
-  <img src="image-19.png" alt="Mobile filters and sorting" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
-  <img src="image-20.png" alt="Mobile checkout process" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
-</div>
+<table align="center" style="border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <td colspan="2" style="text-align: center; padding: 15px; background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%); color: #2d3748; font-weight: bold; border-radius: 10px 10px 0 0;">⚙️ Mobile Filters & Checkout</td>
+  </tr>
+  <tr>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-19.png" alt="Mobile filters and sorting" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+    <td style="padding: 15px; text-align: center; background: #f7fafc; border: 1px solid #e2e8f0;">
+      <img src="SS/image-20.png" alt="Mobile checkout process" style="width: 100%; max-width: 250px; border: 3px solid #4a5568; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);" />
+    </td>
+  </tr>
+</table>
+
+
+
 ## 🛠️ Built With
 
 - **React 19.1.0** - The main framework
@@ -257,7 +332,7 @@ Storybook will be available at `http://localhost:6006`
    npm run dev
    ```
 
- 
+   Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 ## 📜 Available Scripts
 
@@ -365,16 +440,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Nike for the design inspiration
 - The React community for amazing docs and support
 - Tailwind CSS for making styling actually enjoyable
+- [YouTube tutorial](https://www.youtube.com/watch?v=tS7upsfuxmo&t=5106s) that inspired the basic design structure
 - Everyone who builds open source tools that make projects like this possible
 
 ## 📞 Get in Touch
 
 Have questions or want to chat about the project?
 
-- **GitHub**: [Your Profile](#)
-- **Email**: [your.email@example.com](#)
-- **LinkedIn**: [Your Profile](#)
+- **GitHub**: [rezwanqkhan](https://github.com/rezwanqkhan)
+- **LinkedIn**: [Rezwanullah Quraishi](https://www.linkedin.com/in/rezwanullah-quraishi-608314260/)
+- **Email**: rezwankhanq@gmail.com
 
 ---
 
-**Built with React and lots of coffee ☕**
+**Built with ❤️ by Rezwanullah Quraishi using React and lots of coffee ☕**
