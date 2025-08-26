@@ -32,8 +32,62 @@ You can see the live version [here](#) (coming soon!)
 
 ## 📸 What It Looks Like
 
-*Screenshots coming soon - the app is fully functional and ready to explore!*
+### 🖥️ Desktop Experience
 
+#### Homepage & Hero Section
+<div align="center">
+  <img src="image.png" alt="Nike Homepage - Hero Section" width="45%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
+  <img src="image-1.png" alt="Homepage - Product Showcase" width="45%" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
+</div>
+
+#### Product Catalog & Features
+<div align="center">
+  <img src="image-2.png" alt="Product Grid & Search" width="30%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
+  <img src="image-3.png" alt="Product Details & Filters" width="30%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
+  <img src="image-4.png" alt="Product Quick View" width="30%" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
+</div>
+
+#### User Experience & Navigation
+<div align="center">
+  <img src="image-5.png" alt="Site Navigation & Features" width="45%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
+  <img src="image-6.png" alt="User Interface Elements" width="45%" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
+</div>
+
+#### Shopping & Wishlist Features
+<div align="center">
+  <img src="image-7.png" alt="Shopping Experience" width="30%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
+  <img src="image-8.png" alt="Wishlist/Favorites Page" width="30%" style="margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;" />
+  <img src="image-9.png" alt="Shopping Cart & Checkout" width="30%" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
+</div>
+
+### 📱 Mobile Experience
+
+#### Mobile Navigation & Homepage
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <img src="image-10.png" alt="Mobile homepage hero section" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
+  <img src="image-11.png" alt="Mobile navigation menu" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
+  <img src="image-12.png" alt="Mobile product catalog" style="width: 30%; border: 2px solid #e5e7eb; border-radius: 8px;">
+</div>
+
+#### Mobile Product Experience
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <img src="image-13.png" alt="Mobile product details" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
+  <img src="image-14.png" alt="Mobile product modal" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
+  <img src="image-15.png" alt="Mobile size selection" style="width: 30%; border: 2px solid #e5e7eb; border-radius: 8px;">
+</div>
+
+#### Mobile Shopping Features
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <img src="image-16.png" alt="Mobile search functionality" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
+  <img src="image-17.png" alt="Mobile wishlist page" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
+  <img src="image-18.png" alt="Mobile shopping cart" style="width: 30%; border: 2px solid #e5e7eb; border-radius: 8px;">
+</div>
+
+#### Mobile User Interface
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <img src="image-19.png" alt="Mobile filters and sorting" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
+  <img src="image-20.png" alt="Mobile checkout process" style="width: 30%; margin-right: 2%; border: 2px solid #e5e7eb; border-radius: 8px;">
+</div>
 ## 🛠️ Built With
 
 - **React 19.1.0** - The main framework
