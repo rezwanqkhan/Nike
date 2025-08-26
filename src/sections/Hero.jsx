@@ -11,9 +11,9 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'
+      className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 px-8'
     >
-      <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
+      <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full xl:pl-8 pt-28'>
         <p className='text-xl font-montserrat text-coral-red'>
           Our Summer collections
         </p>
@@ -44,18 +44,18 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
+      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center xl:bg-right-top'>
         <img
           src={bigShoeImg}
           alt='shoe colletion'
           width={610}
           height={502}
-          className='object-contain relative z-10'
+          className='object-contain relative z-10 max-w-full h-auto'
         />
 
-        <div className='flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6'>
+        <div className='flex sm:gap-6 gap-3 absolute -bottom-[8%] left-1/2 transform -translate-x-1/2 sm:left-[10%] sm:transform-none max-sm:px-4 max-sm:w-full max-sm:justify-center'>
           {shoes.map((image, index) => (
-            <div key={index}>
+            <div key={index} className='max-sm:flex-1 max-sm:max-w-[100px]'>
               <ShoeCard
                 index={index}
                 imgURL={image}
