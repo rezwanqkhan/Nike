@@ -1,8 +1,8 @@
-# Nike E-Commerce Website 🏃‍♂️
+# Nike E-Commerce Website  
 
 A modern Nike-inspired e-commerce website I built using React, TypeScript, and Tailwind CSS. It's a fully functional shopping experience with everything you'd expect - cart management, wishlist, product search, and a clean responsive design that works great on all devices.
 
-## What's Inside 🌟
+## What's Inside  
 
 ### Shopping Features
 - **Shopping Cart** - Add items, adjust quantities, and everything saves automatically
@@ -26,7 +26,7 @@ A modern Nike-inspired e-commerce website I built using React, TypeScript, and T
 - **Vite** - Lightning-fast development and builds
 - **Local Storage** - Your cart and wishlist persist between sessions
 
-## 🚀 Try It Out
+##   Try It Out
 
 You can see the live version [here](#) (coming soon!)
 
@@ -96,7 +96,7 @@ src/
 └── main.tsx            # App entry point
 ```
 
-## 🎨 Components
+##  Components
 
 ### Core Components
 - **Button**: Customizable button with icon support
@@ -203,8 +203,7 @@ Storybook will be available at `http://localhost:6006`
    npm run dev
    ```
 
-4. **Check it out**
-   Open `http://localhost:5173` in your browser
+ 
 
 ## 📜 Available Scripts
 
