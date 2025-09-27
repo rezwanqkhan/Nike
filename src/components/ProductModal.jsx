@@ -30,7 +30,7 @@ const ProductModal = ({ isOpen, onClose, product }) => {
   ];
 
   const handleAddToCart = () => {
-    // Add visual feedback and cart functionality here
+     
     alert(`Added ${quantity} ${product.name} (Size: ${selectedSize || 'Not selected'}) to cart!`);
   };
 
@@ -174,7 +174,7 @@ const ProductModal = ({ isOpen, onClose, product }) => {
               />
             </div>
             
-            {/* Image selection thumbnails - Fixed for mobile */}
+            
             <div style={{
               display: 'flex',
               gap: window.innerWidth <= 768 ? '8px' : '12px',
