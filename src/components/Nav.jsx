@@ -4,19 +4,26 @@ import { navLinks } from "../constants";
 import { useCart } from "../contexts/CartContext";
 import { useWishlist } from "../contexts/WishlistContext";
 import SearchBar from "./SearchBar";
+import { useState } from "react";
 
 const Nav = () => {
   const { toggleCart, getTotalItems } = useCart();
   const { getWishlistCount } = useWishlist();
   const totalItems = getTotalItems();
   const wishlistCount = getWishlistCount();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleSearchResults = (results) => {
     // For now, just log the results. Later this can be used to filter the main product display
     console.log('Search results:', results);
   };
 
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
+    <>
     <header className='px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8 absolute z-10 w-full'>
       <nav className='flex justify-between items-center w-full max-w-screen-2xl mx-auto'>
         <a href='/'>
@@ -123,10 +130,71 @@ const Nav = () => {
               </span>
             )}
           </button>
-          <img src={hamburger} alt='hamburger icon' width={25} height={25} />
+          <button 
+            onClick={toggleMobileMenu}
+            className='p-2 hover:bg-gray-100 rounded-full transition-colors duration-200'
+          >
+            <img src={hamburger} alt='hamburger icon' width={25} height={25} />
+          </button>
         </div>
       </nav>
     </header>
+
+      {/* Mobile Menu Dropdown - Outside header for proper z-index layering */}
+      {isMobileMenuOpen && (
+        <>
+          {/* Overlay to block content behind */}
+          <div 
+            className='lg:hidden fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-60 z-[9999]'
+            onClick={toggleMobileMenu}
+          />
+          
+          {/* Menu Content */}
+          <div className='lg:hidden fixed top-[72px] left-0 right-0 mx-4 bg-white shadow-2xl z-[10000] border border-gray-200 max-h-[calc(100vh-72px)] overflow-y-auto rounded-3xl'>
+            <div className='px-4 py-4'>
+            {/* Mobile Search Bar */}
+            <div className='mb-4'>
+              <SearchBar onSearchResults={handleSearchResults} />
+            </div>
+            
+            {/* Mobile Navigation Links */}
+            <ul className='space-y-3'>
+              {navLinks.map((item) => (
+                <li key={item.label}>
+                  <a
+                    href={item.href}
+                    className='block py-2 font-montserrat text-base text-slate-gray hover:text-coral-red transition-colors duration-200'
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            
+            {/* Mobile Sign In / Explore */}
+            <div className='mt-4 pt-4 border-t border-gray-200 flex gap-2 font-montserrat text-base'>
+              <a 
+                href='/' 
+                className='hover:text-coral-red transition-colors duration-200'
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Sign in
+              </a>
+              <span>/</span>
+              <a 
+                href='/' 
+                className='hover:text-coral-red transition-colors duration-200'
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Explore now
+              </a>
+            </div>
+          </div>
+        </div>
+        </>
+      )}
+    </>
   );
 };
 
